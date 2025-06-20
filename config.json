@@ -1,0 +1,25 @@
+{
+  "strategy": "HighAccuracyStrategy",
+
+  "exchange": {
+    "name": "binance",
+    "key": "${API_KEY}",
+    "secret": "${API_SECRET}",
+    "ccxt_config": {},
+    "ccxt_async_config": {},
+    "pair_whitelist": ["BTC/USDT", "ETH/USDT"],
+    "pair_blacklist": []
+  },
+
+  "stake_currency": "USDT",
+  "stake_amount": 500,
+
+  "timeframe": "15m",
+
+  "dry_run": false,
+  "process_only_new_candles": true,
+
+  "telegram": {
+    "enabled": false
+  }
+}
